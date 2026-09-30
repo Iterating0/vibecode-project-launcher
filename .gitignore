@@ -1,0 +1,46 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.log
+.DS_Store
+.tools/
+
+# Local configuration, credentials, and signing material
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+.npmrc
+.cargo/credentials
+.cargo/credentials.toml
+
+# Machine-specific state, personal notes, and private troubleshooting
+.codex/
+.agents/
+.vscode/
+.idea/
+AGENTS.md
+wishlist.md
+docs/launch-repair-*.md
+projects.json
+projects.json.*
+*.local.*
+*.bak
+*.tmp
+*.lnk
+Thumbs.db
+
+# Native binaries and debug information are not source assets
+*.exe
+*.dll
+*.pdb
+*.msi

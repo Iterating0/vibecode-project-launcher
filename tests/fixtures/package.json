@@ -1,0 +1,7 @@
+{
+  "name": "launcher-acceptance-fixture",
+  "private": true,
+  "scripts": {
+    "dev": "node fixture-server.cjs"
+  }
+}

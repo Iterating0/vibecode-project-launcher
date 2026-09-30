@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-capability",
+  "description": "The local launcher window can subscribe to backend state and log events.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}
